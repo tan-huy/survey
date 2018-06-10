@@ -1,0 +1,24 @@
+img {
+  block-size: 200px;
+  align: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "duck survey-area"
+        "duck survey-area"
+        "duck survey-area"
+}
+
+fieldset {
+    border: none;
+}
+
