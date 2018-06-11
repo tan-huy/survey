@@ -1,5 +1,7 @@
 img {
-  block-size: 200px;
+  /* block-size: 200px; */
+  width: 250px;
+  height: auto;
   align: left;
 }
 
@@ -12,6 +14,7 @@ h1 {
     padding: 0;
     display: grid;
     grid-gap: 20px;
+    background-color:rgb(191, 227, 243);
     grid-template-areas:
         "duck survey-area"
         "duck survey-area"
@@ -20,5 +23,9 @@ h1 {
 
 fieldset {
     border: none;
+}
+
+.survey-area {
+  display: block;
 }
 
